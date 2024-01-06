@@ -3,7 +3,6 @@
 int main() {
     int firstTerm, commonRatio, numTerms;
 
-    // Get user input
     printf("Enter the first term: ");
     scanf("%d", &firstTerm);
 
@@ -13,7 +12,6 @@ int main() {
     printf("Enter the number of terms: ");
     scanf("%d", &numTerms);
 
-    // Display the generated series
     printf("Geometric Series: ");
 
     for (int i = 0; i < numTerms; ++i) {
